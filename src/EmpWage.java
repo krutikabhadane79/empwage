@@ -15,8 +15,10 @@ public class EmpWage {
         else
         {
             System.out.println("Employee is Absent");
+            workingHours = 0;
         }
         int wage = workingHours * WAGE_PER_HR;
         System.out.println("Employee Daily Wage is " + wage);
+
     }
 }
